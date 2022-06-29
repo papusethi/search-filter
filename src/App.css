@@ -1,0 +1,33 @@
+.app {
+  max-width: 1100px;
+  margin: 2% auto;
+}
+
+.app__search {
+  display: flex;
+  align-items: center;
+  padding: 2% 0;
+}
+
+.app__search--input {
+  flex: 1;
+  width: 100%;
+  outline: 0;
+  border: 1px solid #009879;
+  padding: 8px;
+  background: transparent;
+  border-radius: 4px;
+}
+
+.app__advanced {
+  display: flex;
+  padding: 0 16px;
+  gap: 16px;
+}
+
+.app__advanced--option {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  text-transform: capitalize;
+}
